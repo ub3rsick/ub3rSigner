@@ -1,8 +1,8 @@
 # ub3rSigner
-## APK Signing Utility**
+** APK Signing Utility**
 Wrapper around **keytool** and **jarsigner** to automate APK signing process.
 
-## Dependency
+Dependency
 Requires **keytool** and **jarsigner** in PATH.
 
 Usage:
