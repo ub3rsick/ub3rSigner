@@ -51,8 +51,8 @@ def main():
 	SIGN_APK = \
 	("jarsigner -keystore ub3r.keystore %s "
 	"-sigalg SHA1withRSA "
-  "-storepass ub3rpass "
-  "-keypass ub3rpass "
+  	"-storepass ub3rpass "
+  	"-keypass ub3rpass "
 	"-digestalg SHA1 UB3RK3Y") % sys.argv[1]
 
 	# remove old keystore if present
